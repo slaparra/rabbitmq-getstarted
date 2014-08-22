@@ -1,10 +1,10 @@
-rabbittmq-training
+rabbittmq-training (Atrapalo.com - Oriol GM: https://github.com/oriolgm/rabbitmq-training)
 ==================
 
 Installation
 ------------
 
-    git clone https://github.com/oriolgm/rabbitmq-training.git
+    git clone https://github.com/slaparra/rabbitmq-getstarted.git
 
     cd rabbitmq-training
 
@@ -25,8 +25,27 @@ Send a message
 
 Consumer Command
 
-    php bin/console rabbitmq:consumer --type="error"
+    php bin/console rabbit:consumer
 
-    php bin/console rabbitmq:consumer --type="info"
+With Thumper
+
+    php bin/console rabbitThumper:consumer --type=[error|info]
+
+rabbit commands
+------------
+
+    /usr/local/sbin/rabbitmq-server -detached
+    /usr/local/sbin/rabbitmqctl stop
 
 
+
+urls producer
+-------------
+
+    localhost:8080/<type>/<message>
+    localhost:8080/Thumper/<type>/<message>
+
+urls admin rabbitmq
+------------
+
+    Admin rabbitmq => localhost:15672, user-pass: guest/guest
