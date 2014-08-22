@@ -1,0 +1,5 @@
+composer.phar
+vendor/*
+vendor/
+.idea/
+.DS_Store
