@@ -1,5 +1,5 @@
 rabbittmq-training 
-===========https://github.com/slaparra/rabbitmq-getstarted/edit/master/README.md#=======
+===========
 -- Atrapalo.com - Oriol GM: https://github.com/oriolgm/rabbitmq-training)
 
 Installation
